@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndexedDB - Gerenciamento de livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Gerenciamento de livros com IndexedDB</h1>
+    
+    <table>
+        <tr>
+            <td><label for="idLivro">ID:</label></td>
+            <td><input type="number" id="idLivro"></td>
+        </tr>
+        <tr>
+            <td><label for="titulo">Título:</label></td>
+            <td><input type="text" id="titulo"></td>
+        </tr>
+        <tr>
+            <td><label for="autor">Autor:</label></td>
+            <td><input type="text" id="autor"></td>
+        </tr>
+        <tr>
+            <td><button id="btnC">Incluir</button></td>
+            <td><button id="btnR">Ler</button></td>
+        </tr>
+        <tr>
+            <td><button id="btnD">Excluir</button></td>
+            <td><button id="btnU">Atualizar</button></td>
+        </tr>
+        <tr>
+            <td><button id="btnL">Listagem</button></td>
+            <td><button id="btnRT">Ler por Título</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button id="btnLA">Listagem por autor</button></td>
+        </tr>
+    </table>
+    
+    <p id="output"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
