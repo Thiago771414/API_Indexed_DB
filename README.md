@@ -18,7 +18,7 @@ IndexedDB foi projetado para ser uma API de baixo nível, fornecendo aos desenvo
 - Java Script, HTML, CSS
 
 # Sobre o Projeto
-[https://d3js.org/](https://developer.mozilla.org/pt-BR/docs/Web/API/IndexedDB_API)
+[https://developer.mozilla.org/pt-BR/docs/Web/API/IndexedDB_API]
 
 # Autor
 
